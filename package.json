@@ -1,0 +1,26 @@
+{
+  "name": "vue-electron",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "author": "wuukai <wuukai@126.com>",
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "dev": "chcp 65001 && vite",
+    "build": "vite build && electron-builder",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "electron-win-state": "^1.1.22",
+    "pinia": "^3.0.1",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "electron": "^34.2.0",
+    "electron-builder": "^25.1.8",
+    "vite": "^6.1.0",
+    "vite-plugin-electron": "^0.29.0",
+    "vue": "^3.5.13"
+  }
+}

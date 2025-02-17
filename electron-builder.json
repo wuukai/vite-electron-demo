@@ -1,0 +1,30 @@
+{
+    "appId": "com.example.vue-electron",
+    "productName": "Vue Electron App",
+    "win": {
+        "target": "nsis",
+        "icon": "resources/images/icon.ico"
+    },
+    "nsis": {
+        "oneClick": false,
+        "perMachine": true
+    },
+    "mac": {
+        "target": "dmg",
+        "icon": "resources/images/icon.ico"
+    },
+    "directories": {
+        "output": "build"
+    },
+    "files": [
+        "dist",
+        "dist-electron"
+    ],
+    "extraResources": [
+        {
+            "from": "./resources",
+            "to": "",
+            "filter": ["**/*"]
+        }
+    ]
+}
