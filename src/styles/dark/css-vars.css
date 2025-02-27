@@ -1,0 +1,4 @@
+html.dark {
+  --el-bg-color: #2f3b52; /* 替换默认的背景颜色为一个较浅的颜色 */
+  background-color: #2f3b52;
+}
